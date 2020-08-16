@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <div>
     <ImprovementList msg="test"></ImprovementList>
   </div>
 </template>
@@ -12,7 +11,8 @@ import ImprovementList from '@/components/improvements/ImprovementList'
 export default {
   name: 'Home',
   components: {
-    ImprovementList
+    ImprovementList,
+
   }
 }
 </script>
